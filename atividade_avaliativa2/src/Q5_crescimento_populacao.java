@@ -23,10 +23,18 @@ public static void main(String[] args) {
         anos++;
         }
         System.out.println("A população A passará a população B em "+anos+" anos, e o número de habitantes será: " + populacaoA);
-    }else{
-        System.out.println("A população A é maior que a B.");
-     }
-sc.close();
     }
+        else if (populacaoB < populacaoA){
+        while (populacaoB < populacaoA){
+        populacaoA += (int) (populacaoA * crescimentoA);
+        populacaoB += (int) (populacaoB* crescimentoB);
+        anos++;
+        
+     }
+     System.out.println("A população B passará a população A em:" + anos +" anos, e o número de habitantes será: " + populacaoB);
+     
+sc.close();
+}
+}
 }
 

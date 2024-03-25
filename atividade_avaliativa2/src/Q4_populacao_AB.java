@@ -16,6 +16,7 @@ public static void main(String[] args) {
          anos++;
     }
         System.out.println("A população A passará a população B em "+anos+" anos, e o número de habitantes será: " + populacaoA);
+        
         sc.close();
      }
 
