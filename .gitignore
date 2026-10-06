@@ -1,0 +1,10 @@
+# Java
+*.class
+**/bin/
+**/out/
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
